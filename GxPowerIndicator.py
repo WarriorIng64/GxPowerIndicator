@@ -18,7 +18,7 @@
 # GxPowerIndicator
 # This indicator shuts down the SubOS when clicked.
 
-self.SetIcon(pygame.image.load("indicators/default/GxPowerIndicator/shutdown.png")
+self.SetIcon(pygame.image.load("indicators/default/GxPowerIndicator/shutdown.png"))
 
 self.click_code = """
 pygame.quit()
