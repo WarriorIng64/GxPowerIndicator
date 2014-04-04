@@ -21,8 +21,7 @@
 self.SetIcon(pygame.image.load("indicators/default/GxPowerIndicator/shutdown.png"))
 
 self.click_code = """
-pygame.quit()
-sys.exit()
+self.wm.ShowShutdownDialog()
 """
 
 self.frame_code = """
